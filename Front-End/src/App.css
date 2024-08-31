@@ -1,0 +1,48 @@
+.customShadow {
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* user-table */
+
+.user-table {
+  @apply bg-white;
+}
+
+.user-table th {
+  @apply border text-base font-medium;
+}
+.user-table td {
+  @apply border text-base text-center;
+}
+.img-box-flex-style {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+.ellipsis-text {
+  width: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* scroll hiding in product category */
+
+.scrollbar-none::-webkit-scrollbar {
+  display: none;
+}
+.blend-image {
+  mix-blend-mode: multiply;
+}
+.zindex {
+  z-index: 9999;
+}
+.overflow-text {
+  display: block;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  line-clamp: 1;
+}
